@@ -1,6 +1,6 @@
 {
 	"name": "sell-app",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple Node.js API Wrapper made for Sell.app",
 	"main": "index.js",
 	"homepage": "https://github.com/t6c/sellapp-api-wrapper#readme",
