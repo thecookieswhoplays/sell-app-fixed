@@ -15,13 +15,13 @@ This is a fork from [fsalinas26's Sellix API Wrapper](https://github.com/fsalina
 ## Installation
 
 ```bash
-npm install sell.app
+npm install sell-app
 ```
 
 ## Usage
 
 ```javascript
-const Sellapp = require("sellapp-api-wrapper");
+const Sellapp = require("sell-app");
 const API = new Sellapp.API("YOUR_API_KEY");
 
 API.getAllProducts().then((res) => {
