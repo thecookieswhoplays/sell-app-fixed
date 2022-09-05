@@ -12,7 +12,7 @@
 		"url": "https://github.com/t6c/sellapp-api-wrapper/issues"
 	},
 	"scripts": {
-		"test": "necho \"No test specified\"",
+		"test": "echo \"No test specified\"",
 		"dev": "nodemon index.js"
 	},
 	"keywords": [
