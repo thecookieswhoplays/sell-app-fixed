@@ -6,6 +6,12 @@
 
 This is a fork from [fsalinas26's Sellix API Wrapper](https://github.com/fsalinas26/sellix-api-wrapper) made to access the Sell.app's API
 
+## TO-DO List
+
+-   [ ] Reorganize package and publish all new changes on npmjs (?)
+-   [ ] Add full support for **Product API V2**
+-   [ ] Make a wiki to replace this long listed examples.
+
 ## Requirements
 
 -   Sell.app API Key ([Get it here](https://sell.app/user/api-tokens))
