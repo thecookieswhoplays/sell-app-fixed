@@ -12,7 +12,7 @@
 		"url": "https://github.com/t6c/sellapp-api-wrapper/issues"
 	},
 	"scripts": {
-		"test": "npx nodemon index.js"
+		"test": "nodemon index.js"
 	},
 	"keywords": [
 		"wrapper",
