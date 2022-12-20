@@ -67,6 +67,16 @@ Click on an endpoint to see its <b>example.</b>
 -   `updateProduct(id, fields)`: Updates a listing by the entered ID.
 -   `deleteProduct(id)`: Deletes a listing by the entered ID.
 
+### <a href="#productv2-endpoint">Listings/Products v2 Endpoint</a>
+
+-   `getAllProductsv2()`: Returns a list of all products created.
+-   `createListing(fields)`: Create Listing.
+-   `getListing(id)`: Gets listing by the entered ID.
+-   `updateListing(id, fields)`: Updates a listing by the entered ID.
+-   `deleteListing(id)`: Deletes a listing by the entered ID.
+-   `searchVariants(id)`: Search for product variants by the entered ID.
+-   `getAllVariants(id)`: Returns a list of all product variants created by the entered ID.
+
 ### <a href="#section-endpoint">Sections Endpoint</a>
 
 -   `getAllSections()`: Returns a list of all the listings created.
