@@ -37,6 +37,9 @@ API.createBlacklist("email", "hi@example.com", "evil user").then((res) => {
 	console.log(res); // blacklisting the said user with the string "evil user" as description
 });
 ```
+## Multi-Store Support
+
+Say you are part of multiple stores and want to access `bob.sell.app`, you would pass the slug `bob` as  your store.
 
 ## Supported Endpoints
 
