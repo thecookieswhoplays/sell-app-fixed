@@ -8,6 +8,7 @@ This is a fork from [fsalinas26's Sellix API Wrapper](https://github.com/fsalina
 
 ## TO-DO List
 
+-   [ ] Hi uh ik there has been lack of updates since i was too busy w uni and stuffs, i'll try to get back to update when i can (also published new changes to npm btw, forgot to update it when i merged a few pull requests from an awesome contributor).
 -   [ ] Add full support for **Product API V2**
 -   [ ] Make a wiki to replace this long listed examples.
 
@@ -37,9 +38,10 @@ API.createBlacklist("email", "hi@example.com", "evil user").then((res) => {
 	console.log(res); // blacklisting the said user with the string "evil user" as description
 });
 ```
+
 ## Multi-Store Support
 
-Say you are part of multiple stores and want to access `bob.sell.app`, you would pass the slug `bob` as  your store.
+Say you are part of multiple stores and want to access `bob.sell.app`, you would pass the slug `bob` as your store.
 
 ## Supported Endpoints
 
