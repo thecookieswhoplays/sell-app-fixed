@@ -99,6 +99,7 @@ Click on an endpoint to see its <b>example.</b>
 
 -   `getAllOrders()`: Returns a list of all the orders that have been placed.
 -   `getOrder(id)`: Retrieve a specific order by the entered ID.
+-   `getOrderDeliverables(id)`: Retrieve deliverables from a specific order by the entered ID.
 -   `createInvoice(fields)`: Generates an invoice, and returns the invoice that is generated.
 -   `issueReplacement(id, fields)`: Issue a replacement for an order by the entered ID.
 -   `createPayment(id)`: Generates a payment session for the given order.
