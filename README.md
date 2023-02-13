@@ -608,6 +608,19 @@ API.getOrder("666").then((res) => {
 </details>
 
 <details>
+  <summary>getOrderDeliverables(id)</summary>
+  
+```javascript
+API.getOrderDeliverables("666").then((res) => {
+    console.log(res);
+});
+```
+| Parameters |  Type  | Required |      Description       |
+| :--------: | :----: | :------: | :--------------------: |
+|    `id`    | string |    ✔️    | ID of an order |
+</details>
+
+<details>
   <summary>createInvoice(fields)</summary>
   
 ```javascript
