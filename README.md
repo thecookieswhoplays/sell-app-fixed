@@ -1,16 +1,6 @@
 <img src="https://i.vgy.me/NomCdN.png" align="right" />
 
-# Sell.app API Wrapper
-
-> A simple Node.js API Wrapper made for Sell.app. <a href="#contributing">CONTRIBUTING</a>
-
-This is a fork from [fsalinas26's Sellix API Wrapper](https://github.com/fsalinas26/sellix-api-wrapper) made to access the Sell.app's API
-
-## TO-DO List
-
--   [ ] Hi uh ik there has been lack of updates since i was too busy w uni and stuffs, i'll try to get back to update when i can (also published new changes to npm btw, forgot to update it when i merged a few pull requests from an awesome contributor).
--   [ ] Add full support for **Product API V2**
--   [ ] Make a wiki to replace this long listed examples.
+This is a copy of the package sell-app but I fixed the 403 error since I couldn't get in contact with the og owner. All credits go to him 
 
 ## Requirements
 
@@ -21,13 +11,13 @@ This is a fork from [fsalinas26's Sellix API Wrapper](https://github.com/fsalina
 ## Installation
 
 ```bash
-npm install sell-app
+npm install sell-app-fixed
 ```
 
 ## Usage
 
 ```javascript
-const Sellapp = require("sell-app");
+const Sellapp = require("sell-app-fixed");
 const API = new Sellapp.API("YOUR_API_KEY");
 
 API.getAllProducts().then((res) => {
