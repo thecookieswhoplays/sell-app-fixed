@@ -1,34 +1,34 @@
 {
-	"name": "sell-app",
-	"version": "1.1.1",
-	"description": "A simple Node.js API Wrapper made for Sell.app",
-	"main": "index.js",
-	"homepage": "https://github.com/t6c/sellapp-api-wrapper#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/t6c/sellapp-api-wrapper.git"
-	},
-	"bugs": {
-		"url": "https://github.com/t6c/sellapp-api-wrapper/issues"
-	},
-	"scripts": {
-		"test": "echo \"No test specified\"",
-		"dev": "nodemon index.js"
-	},
-	"keywords": [
-		"wrapper",
-		"api",
-		"sell.app",
-		"sellapp"
-	],
-	"author": "erys",
-	"license": "MIT",
-	"dependencies": {
-		"axios": "^0.24.0"
-	},
-	"devDependencies": {
-		"grunt": "^1.5.3",
-		"grunt-bump": "^0.8.0",
-		"grunt-cli": "^1.4.3"
-	}
+  "name": "sell-app-fixed",
+  "version": "1.1.1",
+  "description": "Fixed version of https://www.npmjs.com/package/sell-app",
+  "main": "index.js",
+  "homepage": "https://github.com/thecookieswhoplays/sell-app-fixed#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecookieswhoplays/sell-app-fixed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thecookieswhoplays/sell-app-fixed/issues"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "wrapper",
+    "api",
+    "sell.app",
+    "sellapp"
+  ],
+  "author": "erys",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-bump": "^0.8.0",
+    "grunt-cli": "^1.4.3"
+  }
 }
